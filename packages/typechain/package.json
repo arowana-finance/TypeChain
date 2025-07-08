@@ -8,7 +8,7 @@
     "smartcontract",
     "blockchain"
   ],
-  "version": "8.3.2",
+  "version": "8.3.3",
   "license": "MIT",
   "repository": "https://github.com/ethereum-ts/Typechain",
   "main": "./dist/index.js",
@@ -31,7 +31,6 @@
     "test:fix": "pnpm lint:fix && pnpm format:fix && pnpm test && pnpm typecheck"
   },
   "dependencies": {
-    "@types/prettier": "^3.0.0",
     "debug": "^4.3.1",
     "fs-extra": "^11.3.0",
     "glob": "^11.0.3",
