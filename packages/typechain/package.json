@@ -1,5 +1,5 @@
 {
-  "name": "typechain",
+  "name": "@arowanadao/typechain",
   "description": "🔌 TypeScript bindings for Ethereum smartcontracts",
   "keywords": [
     "ethereum",

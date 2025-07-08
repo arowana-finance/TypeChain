@@ -69,7 +69,7 @@ importers:
         version: 6.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     devDependencies:
       '@typechain/ethers-v6':
-        specifier: workspace:^0.5.1
+        specifier: workspace:@arowanadao/typechain-ethers-v6@^0.5.1
         version: link:../../packages/target-ethers-v6
       '@types/bn.js':
         specifier: ^5.1.0
@@ -78,7 +78,7 @@ importers:
         specifier: ^10.7.0
         version: 10.9.2(@types/node@24.0.10)(typescript@4.9.5)
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../../packages/typechain
       typescript:
         specifier: ^4.7
@@ -91,7 +91,7 @@ importers:
         version: 6.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     devDependencies:
       '@typechain/ethers-v6':
-        specifier: workspace:^0.5.1
+        specifier: workspace:@arowanadao/typechain-ethers-v6@^0.5.1
         version: link:../../packages/target-ethers-v6
       '@types/bn.js':
         specifier: ^5.1.0
@@ -100,7 +100,7 @@ importers:
         specifier: ^10.7.0
         version: 10.9.2(@types/node@24.0.10)(typescript@4.9.5)
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../../packages/typechain
       typescript:
         specifier: ^4.7
@@ -124,10 +124,10 @@ importers:
         specifier: ^3.0.4
         version: 3.0.9(ethers@6.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(hardhat@2.25.0(bufferutil@4.0.9)(ts-node@10.9.2(@types/node@18.14.0)(typescript@4.9.5))(typescript@4.9.5)(utf-8-validate@5.0.10))
       '@typechain/ethers-v6':
-        specifier: workspace:^0.5.1
+        specifier: workspace:@arowanadao/typechain-ethers-v6@^0.5.1
         version: link:../../packages/target-ethers-v6
       '@typechain/hardhat':
-        specifier: workspace:^9.1.0
+        specifier: workspace:@arowanadao/typechain-hardhat@^9.1.0
         version: link:../../packages/hardhat
       '@types/chai':
         specifier: ^4.2.15
@@ -163,7 +163,7 @@ importers:
         specifier: ^10.7.0
         version: 10.9.2(@types/node@18.14.0)(typescript@4.9.5)
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../../packages/typechain
       typescript:
         specifier: ^4.9.5
@@ -179,7 +179,7 @@ importers:
         specifier: ^3.0.0
         version: 3.0.9(ethers@6.15.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(hardhat@2.25.0(bufferutil@4.0.9)(ts-node@10.9.2(@types/node@24.0.10)(typescript@5.8.3))(typescript@5.8.3)(utf-8-validate@5.0.10))
       '@typechain/ethers-v6':
-        specifier: workspace:^0.5.1
+        specifier: workspace:@arowanadao/typechain-ethers-v6@^0.5.1
         version: link:../target-ethers-v6
       '@types/fs-extra':
         specifier: ^11.0.4
@@ -197,7 +197,7 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../typechain
       typescript:
         specifier: ^5.8.3
@@ -215,10 +215,10 @@ importers:
         specifier: ^3.0.0
         version: 3.0.9(ethers@6.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(hardhat@2.25.0(bufferutil@4.0.9)(ts-node@10.9.2(@types/node@24.0.10)(typescript@5.8.3))(typescript@5.8.3)(utf-8-validate@5.0.10))
       '@typechain/ethers-v6':
-        specifier: workspace:^0.5.1
+        specifier: workspace:@arowanadao/typechain-ethers-v6@^0.5.1
         version: link:../target-ethers-v6
       '@typechain/hardhat':
-        specifier: workspace:^9.1.0
+        specifier: workspace:@arowanadao/typechain-hardhat@^9.1.0
         version: link:../hardhat
       ethers:
         specifier: ~6.3.0
@@ -230,7 +230,7 @@ importers:
         specifier: workspace:*
         version: link:../test-utils
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../typechain
 
   packages/target-ethers-v6:
@@ -258,7 +258,7 @@ importers:
         specifier: workspace:*
         version: link:../test-utils
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../typechain
       typescript:
         specifier: '>=5.8.3'
@@ -277,7 +277,7 @@ importers:
         specifier: workspace:*
         version: link:../test-utils
       typechain:
-        specifier: workspace:^8.3.2
+        specifier: workspace:@arowanadao/typechain@^8.3.2
         version: link:../typechain
 
   packages/test-utils:

@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/hardhat",
+  "name": "@arowanadao/typechain-hardhat",
   "description": "Zero-config TypeChain support for Hardhat",
   "keywords": [
     "TypeScript",
@@ -34,19 +34,19 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
-    "@typechain/ethers-v6": "workspace:^0.5.1",
+    "@typechain/ethers-v6": "workspace:@arowanadao/typechain-ethers-v6@^0.5.1",
     "@types/fs-extra": "^11.0.4",
     "@types/rimraf": "^4.0.5",
     "ethers": "6.x",
     "hardhat": "^2.25.0",
     "rimraf": "^6.0.1",
-    "typechain": "workspace:^8.3.2",
+    "typechain": "workspace:@arowanadao/typechain@^8.3.2",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@typechain/ethers-v6": "workspace:^0.5.1",
+    "@typechain/ethers-v6": "workspace:@arowanadao/typechain-ethers-v6@^0.5.1",
     "ethers": "^6.15.0",
     "hardhat": "^2.25.0",
-    "typechain": "workspace:^8.3.2"
+    "typechain": "workspace:@arowanadao/typechain@^8.3.2"
   }
 }
