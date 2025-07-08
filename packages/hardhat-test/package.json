@@ -22,7 +22,7 @@
     "@typechain/hardhat": "workspace:^9.1.0",
     "ethers": "~6.3.0",
     "hardhat": "^2.9.9",
-    "test-utils": "1.0.0",
+    "test-utils": "workspace:*",
     "typechain": "workspace:^8.3.2"
   }
 }
